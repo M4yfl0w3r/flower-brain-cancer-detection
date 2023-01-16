@@ -5,3 +5,12 @@ CancerDetectionModel.h5
 
 .ipynb_checkpoints
 __pycache__
+
+.editorconfig
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc

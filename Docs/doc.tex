@@ -1,0 +1,65 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{blindtext}
+\usepackage{underscore}
+\usepackage{polski}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{caption}
+\usepackage{float}
+\usepackage{xcolor}
+\usepackage{listings}
+
+% ----------------------------------------------------------------------------
+
+\title{Dokumentacja projektu \\ \large Klasyfikacja nowotworu na podstawie skanu mózgu}
+\author{Łukasz Jarosz}
+\date{Semestr zimowy 2022/2023}
+
+% ----------------------------------------------------------------------------
+
+\geometry
+{
+  a4paper,
+  total = {170mm, 257mm},
+  left = 20mm,
+  top = 20mm,
+}
+
+\graphicspath{ {./images/} }
+
+% ----------------------------------------------------------------------------
+
+\begin{document}
+\begin{sloppypar}
+\maketitle
+
+\newpage
+\tableofcontents
+\newpage
+\pagenumbering{arabic}
+
+% ----------------------------------------------------------------------------
+
+\section{Opis projektu}
+
+\subsection{Cel projektu}
+\paragraph{Celem projektu było napisane aplikacji, która na podstawie zdjęcia skanu mózgu jest w stanie określić, czy na danym skanie znajduje się nowotwór czy nie.}
+
+\subsection{Użyte technologie}
+\paragraph{Aplikacja została napisana w języku Python korzystając z biblioteki \href{https://www.pysimplegui.org/en/latest/}{PySimpleGui} w celu wykonania interfejsu graficznego.}
+
+
+\section{Podział pracy}
+
+\paragraph{Dokumentacja - Łukasz Jarosz}
+\paragraph{Interfejs graficzny - Łukasz Jarosz}
+\paragraph{Projekt sieci neuronowej - Łukasz Jarosz}
+\paragraph{Trening sieci neuronowej - Łukasz Jarosz + GoogleColab}
+
+\end{sloppypar}
+\end{document}
