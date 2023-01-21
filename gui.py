@@ -14,7 +14,7 @@ def image_to_data(image):
 class Gui:
     
     def __init__(self):
-        gui.theme('DarkBlue')
+        gui.theme('DarkBlue14')
         self.width  = 640
         self.height = 480
         self.size   = self.width, self.height

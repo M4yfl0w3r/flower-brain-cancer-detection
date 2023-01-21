@@ -20,6 +20,6 @@ class NeuralNetworkModel:
     def predict(self, imagePath):
         image = self.process_image(imagePath)
         prediction = self.model.predict(image)
-        if prediction > 0.5: return 'Healthy'
+        if prediction > 0.5: return 'Healthy' 
         else: return 'BrainTumor'
         
